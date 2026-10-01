@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ronie Suárez">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0dba6"/>
+      <stop offset=".45" stop-color="#c9a227"/>
+      <stop offset="1" stop-color="#8a6b16"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" fill="#0a0807"/>
+  <rect x="3.5" y="3.5" width="57" height="57" fill="none" stroke="url(#g)" stroke-width="1.5"/>
+  <text x="32" y="43" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400"
+        letter-spacing="1" fill="url(#g)">RS</text>
+</svg>

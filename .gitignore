@@ -1,0 +1,27 @@
+# Dependências
+node_modules/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Build / deploy
+.vercel
+dist/
+.cache/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos de trabalho (não publicar)
+material/
+assets/
+img/_t.txt

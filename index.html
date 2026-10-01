@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ronie Suárez — Cantor e Compositor | Pop Sertanejo</title>
+<meta name="description" content="Ronie Suárez: cantor e compositor de pop sertanejo. Shows ao vivo para casamentos, eventos corporativos e festas em São Paulo e região. Do acústico ao show completo.">
+<meta name="theme-color" content="#0a0807">
+
+<!-- TODO: trocar pelo domínio real ao publicar (canonical, og:url, sitemap, JSON-LD). -->
+<link rel="canonical" href="https://roniesuarez.com.br/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="favicon.svg">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://roniesuarez.com.br/">
+<meta property="og:site_name" content="Ronie Suárez">
+<meta property="og:title" content="Ronie Suárez — Cantor e Compositor">
+<meta property="og:description" content="Shows ao vivo que unem emoção, presença e energia, criados para transformar cada evento em uma experiência única.">
+<meta property="og:image" content="img/hero.jpg">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Jost:wght@300;400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+
+<script>
+/* Marca visualmente qualquer slot de imagem ausente em /img.
+   Fica no <head> e em fase de captura para pegar erros que
+   acontecem antes do main.js carregar. */
+window.addEventListener('error', function (e) {
+  var el = e.target;
+  if (!el || el.tagName !== 'IMG') return;
+  var frame = el.closest('.media');
+  if (frame) {
+    frame.classList.add('media--missing');
+    frame.setAttribute('data-missing', el.getAttribute('src') || 'imagem');
+  }
+  el.classList.add('is-broken');
+}, true);
+</script>
+
+<!-- TODO: adicionar "sameAs": ["<url do Instagram>","<url do YouTube>"] quando
+     os perfis reais forem confirmados. Não incluído para não publicar link inventado. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MusicGroup",
+      "@id": "https://roniesuarez.com.br/#artista",
+      "name": "Ronie Suárez",
+      "alternateName": "Ronie Suarez",
+      "url": "https://roniesuarez.com.br/",
+      "image": "https://roniesuarez.com.br/img/hero.jpg",
+      "genre": ["Pop Sertanejo", "Sertanejo", "MPB"],
+      "description": "Cantor e compositor de pop sertanejo. Shows ao vivo para casamentos, eventos corporativos, aniversários e eventos exclusivos, do acústico ao show completo com banda.",
+      "areaServed": {
+        "@type": "Place",
+        "name": "São Paulo e região"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://roniesuarez.com.br/#site",
+      "url": "https://roniesuarez.com.br/",
+      "name": "Ronie Suárez",
+      "inLanguage": "pt-BR",
+      "about": { "@id": "https://roniesuarez.com.br/#artista" }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#inicio">Pular para o conteúdo</a>
+
+<!-- ============================================ HEADER -->
+<header class="header" id="header">
+  <div class="header__inner">
+
+    <a class="brand" href="#inicio" aria-label="Ronie Suárez — início">
+      <span class="brand__monogram" aria-hidden="true">RS</span>
+      <span class="brand__name">Ronie Suárez</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#inicio">Início</a></li>
+        <li><a class="nav__link" href="#sobre">Sobre</a></li>
+        <li><a class="nav__link" href="#experiencias">Experiências</a></li>
+        <li><a class="nav__link" href="#formatos">Formatos</a></li>
+        <li><a class="nav__link" href="#galeria">Galeria</a></li>
+        <li><a class="nav__link" href="#depoimentos">Depoimentos</a></li>
+        <li><a class="nav__link" href="#faq">FAQ</a></li>
+      </ul>
+
+      <ul class="nav__social" aria-label="Redes sociais">
+        <li>
+          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Ronie Suárez">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.96.24 2.65.51.71.28 1.31.65 1.91 1.25.6.6.97 1.2 1.25 1.91.27.69.46 1.48.51 2.65.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.17-.24 1.96-.51 2.65-.28.71-.65 1.31-1.25 1.91-.6.6-1.2.97-1.91 1.25-.69.27-1.48.46-2.65.51-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.17-.05-1.96-.24-2.65-.51a5.3 5.3 0 0 1-1.91-1.25 5.3 5.3 0 0 1-1.25-1.91c-.27-.69-.46-1.48-.51-2.65C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.17.24-1.96.51-2.65.28-.71.65-1.31 1.25-1.91.6-.6 1.2-.97 1.91-1.25.69-.27 1.48-.46 2.65-.51C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.14 0-3.5.01-4.73.07-.94.04-1.45.2-1.79.33-.45.17-.77.38-1.11.72-.34.34-.55.66-.72 1.11-.13.34-.29.85-.33 1.79C3.26 9.25 3.25 9.6 3.25 12s.01 2.75.07 3.98c.04.94.2 1.45.33 1.79.17.45.38.77.72 1.11.34.34.66.55 1.11.72.34.13.85.29 1.79.33 1.23.06 1.59.07 4.73.07s3.5-.01 4.73-.07c.94-.04 1.45-.2 1.79-.33.45-.17.77-.38 1.11-.72.34-.34.55-.66.72-1.11.13-.34.29-.85.33-1.79.06-1.23.07-1.58.07-3.98s-.01-2.75-.07-3.98c-.04-.94-.2-1.45-.33-1.79a2.98 2.98 0 0 0-.72-1.11 2.98 2.98 0 0 0-1.11-.72c-.34-.13-.85-.29-1.79-.33C15.5 4.01 15.14 4 12 4Zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 1.8a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2Zm5.1-2.35a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="Canal de Ronie Suárez no YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.76-1.77C18.25 5 12 5 12 5s-6.25 0-7.84.43A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.76 1.77C5.75 19 12 19 12 19s6.25 0 7.84-.43a2.5 2.5 0 0 0 1.76-1.77C22 15.2 22 12 22 12s0-3.2-.4-4.8ZM10 15.2V8.8L15.5 12 10 15.2Z"/></svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <a class="btn btn--gold btn--sm header__cta" href="#contato">Orçamento</a>
+
+    <button class="nav-toggle" id="navToggle" type="button"
+            aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+
+  </div>
+</header>
+
+<main>
+
+<!-- ============================================ 01 — INÍCIO -->
+<section class="hero" id="inicio">
+
+  <div class="hero__media media" data-slot="hero">
+    <img src="img/hero.jpg" alt="Ronie Suárez no palco durante um show, sob iluminação cênica." width="1600" height="1067" fetchpriority="high">
+  </div>
+  <div class="hero__scrim" aria-hidden="true"></div>
+
+  <div class="hero__content">
+    <p class="eyebrow eyebrow--spaced reveal">Cantor <span aria-hidden="true">•</span> Compositor <span aria-hidden="true">•</span> Pop Sertanejo</p>
+
+    <h1 class="hero__title reveal">
+      <span class="hero__title-main">Ronie</span>
+      <span class="hero__title-script">Suárez</span>
+    </h1>
+
+    <p class="hero__quote reveal">“A música certa transforma um momento em uma experiência.”</p>
+
+    <p class="hero__lead reveal">
+      Shows ao vivo que unem emoção, presença e energia, criados para
+      transformar cada evento em uma experiência única.
+    </p>
+
+    <div class="hero__actions reveal">
+      <a class="btn btn--gold" href="#contato">Solicitar orçamento</a>
+      <button class="btn btn--ghost btn--play" type="button" data-video-open>
+        <span class="btn__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </span>
+        Ver o show
+      </button>
+    </div>
+  </div>
+
+  <ul class="hero__stats" aria-label="Números do projeto">
+    <li class="stat reveal">
+      <span class="stat__value" data-count-to="200" data-count-prefix="+" data-count-suffix=" mil">+200 mil</span>
+      <span class="stat__label">Visualizações no YouTube</span>
+    </li>
+    <li class="stat reveal">
+      <span class="stat__value" data-count-to="15" data-count-prefix="+" data-count-suffix=" mil">+15 mil</span>
+      <span class="stat__label">Seguidores no Instagram</span>
+    </li>
+    <li class="stat reveal">
+      <span class="stat__value" data-count-to="3">3</span>
+      <span class="stat__label">Formatos de show</span>
+    </li>
+  </ul>
+
+  <a class="hero__scroll" href="#sobre" aria-label="Rolar para a seção Sobre">
+    <span aria-hidden="true"></span>
+  </a>
+</section>
+
+<!-- ============================================ 02 — SOBRE -->
+<section class="about section" id="sobre">
+  <div class="container about__grid">
+
+    <figure class="about__portrait media reveal" data-slot="retrato">
+      <img src="img/retrato.jpg" alt="Retrato de Ronie Suárez em estúdio, com iluminação suave." width="900" height="1125" loading="lazy">
+    </figure>
+
+    <div class="about__text">
+      <p class="eyebrow reveal">Sobre o artista</p>
+      <h2 class="section__title reveal">Um artista. Uma identidade.<br>Uma experiência.</h2>
+
+      <div class="prose reveal">
+        <p>
+          Ronie Suárez é cantor e compositor brasileiro, com uma identidade
+          artística marcada pela presença de palco, emoção e conexão genuína
+          com o público.
+        </p>
+        <p>
+          No universo do Pop Sertanejo, constrói um projeto que une música,
+          estética e narrativa para transformar cada apresentação em uma
+          experiência. Sua voz traduz sentimentos reais em canções que
+          equilibram romantismo, intensidade e modernidade.
+        </p>
+        <p>
+          Sua trajetória reúne momentos de destaque na televisão brasileira e
+          grandes palcos da música nacional. Foi bicampeão do quadro
+          <em>10 ou Mil</em>, no Programa do Ratinho (SBT), semifinalista do
+          <em>Canta Comigo</em> (Record TV) e realizou aberturas para
+          Luan Santana, na turnê Luan City, e para Chitãozinho &amp; Xororó.
+        </p>
+        <p>
+          Hoje, Ronie segue consolidando uma identidade própria dentro do Pop
+          Sertanejo, conectando música, performance e experiência em cada show.
+        </p>
+      </div>
+
+      <blockquote class="pull-quote reveal">
+        <p>“No palco, eu não fujo da realidade — eu mostro que ainda é possível sentir, viver e se reconectar.”</p>
+        <footer class="pull-quote__sign">Ronie Suárez</footer>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="container">
+    <p class="eyebrow eyebrow--center reveal">Uma trajetória que já passou por grandes palcos</p>
+
+    <ul class="credits reveal" aria-label="Destaques da carreira">
+      <li class="credit">
+        <span class="credit__role">Bicampeão</span>
+        <span class="credit__where">Programa do Ratinho <span class="credit__dot" aria-hidden="true">·</span> SBT</span>
+      </li>
+      <li class="credit">
+        <span class="credit__role">Semifinalista</span>
+        <span class="credit__where">Canta Comigo <span class="credit__dot" aria-hidden="true">·</span> Record TV</span>
+      </li>
+      <li class="credit">
+        <span class="credit__role">Opening act</span>
+        <span class="credit__where">Luan Santana <span class="credit__dot" aria-hidden="true">·</span> Luan City</span>
+      </li>
+      <li class="credit">
+        <span class="credit__role">Opening act</span>
+        <span class="credit__where">Chitãozinho &amp; Xororó</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================ 03 — EXPERIÊNCIAS -->
+<section class="section section--alt" id="experiencias">
+  <div class="container">
+    <header class="section__head">
+      <div>
+        <p class="eyebrow reveal">Experiências</p>
+        <h2 class="section__title reveal">Shows pensados para<br>cada ocasião</h2>
+      </div>
+      <p class="section__aside reveal">
+        Do acústico ao show completo, sempre com repertório ajustado ao
+        perfil, ao público e ao momento do evento.
+      </p>
+    </header>
+
+    <ul class="cards">
+
+      <li class="card reveal">
+        <div class="card__media media" data-slot="casamento">
+          <img src="img/casamento.jpg" alt="Ronie Suárez cantando em uma festa de casamento, com convidados celebrando." width="800" height="1000" loading="lazy">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Casamentos</h3>
+          <p class="card__text">
+            Recepção, jantar e festa. Repertório conduzido para acompanhar
+            o ritmo da celebração, do clima intimista ao auge da pista.
+          </p>
+        </div>
+      </li>
+
+      <li class="card reveal">
+        <div class="card__media media" data-slot="corporativo">
+          <img src="img/corporativo.jpg" alt="Apresentação de Ronie Suárez em evento corporativo." width="800" height="1000" loading="lazy">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Eventos corporativos</h3>
+          <p class="card__text">
+            Confraternizações, lançamentos e premiações. Presença de palco
+            com leitura de ambiente e postura alinhada à marca.
+          </p>
+        </div>
+      </li>
+
+      <li class="card reveal">
+        <div class="card__media media" data-slot="festa">
+          <img src="img/festa.jpg" alt="Público cantando junto durante show de Ronie Suárez." width="800" height="1000" loading="lazy">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Aniversários &amp; festas</h3>
+          <p class="card__text">
+            Energia alta e interação com o público. Do formato enxuto ao
+            show completo, conforme o espaço e a proposta da festa.
+          </p>
+        </div>
+      </li>
+
+      <li class="card reveal">
+        <div class="card__media media" data-slot="exclusivo">
+          <img src="img/exclusivo.jpg" alt="Ronie Suárez em apresentação intimista, com iluminação baixa." width="800" height="1000" loading="lazy">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Eventos exclusivos</h3>
+          <p class="card__text">
+            Jantares, lounges e encontros reservados. Um set mais próximo,
+            feito para ambientes de poucas pessoas.
+          </p>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================ FORMATOS -->
+<section class="section" id="formatos">
+  <div class="container">
+    <header class="section__head">
+      <div>
+        <p class="eyebrow reveal">Formatos de show</p>
+        <h2 class="section__title reveal">Três formatos,<br>a mesma entrega</h2>
+      </div>
+      <p class="section__aside reveal">
+        A escolha do formato depende do espaço, do público e do clima
+        desejado. O repertório é definido junto com você.
+      </p>
+    </header>
+
+    <div class="formats">
+
+      <article class="format reveal">
+        <div class="format__media media" data-slot="banda-completa">
+          <img src="img/banda-completa.jpg" alt="Ronie Suárez e banda completa no palco." width="1200" height="800" loading="lazy">
+        </div>
+        <div class="format__body">
+          <span class="format__index" aria-hidden="true">01</span>
+          <h3 class="format__title">Show completo</h3>
+          <p class="format__text">
+            Banda completa, presença máxima de palco e repertório amplo.
+            Indicado para festas e eventos de maior porte.
+          </p>
+        </div>
+      </article>
+
+      <article class="format reveal">
+        <div class="format__media media" data-slot="acustico-banda">
+          <img src="img/acustico-banda.jpg" alt="Formação reduzida com violão e percussão em show de Ronie Suárez." width="1200" height="800" loading="lazy">
+        </div>
+        <div class="format__body">
+          <span class="format__index" aria-hidden="true">02</span>
+          <h3 class="format__title">Duo e trio</h3>
+          <p class="format__text">
+            Formação reduzida, equilíbrio entre energia e sofisticação.
+            Funciona bem em recepções, jantares e espaços médios.
+          </p>
+        </div>
+      </article>
+
+      <article class="format reveal">
+        <div class="format__media media" data-slot="voz-instrumento">
+          <img src="img/voz-instrumento.jpg" alt="Ronie Suárez cantando e tocando violão em formato voz e violão." width="900" height="1200" loading="lazy">
+        </div>
+        <div class="format__body">
+          <span class="format__index" aria-hidden="true">03</span>
+          <h3 class="format__title">Acústico</h3>
+          <p class="format__text">
+            Voz e instrumento. Repertório intimista e envolvente, pensado
+            para ambientes mais reservados.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ GALERIA -->
+<section class="section section--alt" id="galeria">
+  <div class="container">
+    <header class="section__head">
+      <div>
+        <p class="eyebrow reveal">Galeria</p>
+        <h2 class="section__title reveal">Momentos no palco</h2>
+      </div>
+      <p class="section__aside reveal">
+        Registros de shows, bastidores e passagens de som.
+      </p>
+    </header>
+  </div>
+
+  <ul class="gallery" id="gallery">
+    <li class="gallery__item reveal">
+      <button class="gallery__btn media" type="button" data-slot="galeria-01" data-lightbox>
+        <img src="img/galeria-01.jpg" alt="Ronie Suárez ao microfone durante show." width="800" height="800" loading="lazy">
+        <span class="gallery__zoom" aria-hidden="true"></span>
+        <span class="visually-hidden">Ampliar imagem</span>
+      </button>
+    </li>
+    <li class="gallery__item gallery__item--wide reveal">
+      <button class="gallery__btn media" type="button" data-slot="galeria-02" data-lightbox>
+        <img src="img/galeria-02.jpg" alt="Vista do palco com iluminação cênica e público." width="1200" height="800" loading="lazy">
+        <span class="gallery__zoom" aria-hidden="true"></span>
+        <span class="visually-hidden">Ampliar imagem</span>
+      </button>
+    </li>
+    <li class="gallery__item reveal">
+      <button class="gallery__btn media" type="button" data-slot="galeria-03" data-lightbox>
+        <img src="img/galeria-03.jpg" alt="Ronie Suárez em close durante apresentação." width="800" height="800" loading="lazy">
+        <span class="gallery__zoom" aria-hidden="true"></span>
+        <span class="visually-hidden">Ampliar imagem</span>
+      </button>
+    </li>
+    <li class="gallery__item gallery__item--wide reveal">
+      <button class="gallery__btn media" type="button" data-slot="galeria-04" data-lightbox>
+        <img src="img/galeria-04.jpg" alt="Público de braços erguidos durante o show." width="1200" height="800" loading="lazy">
+        <span class="gallery__zoom" aria-hidden="true"></span>
+        <span class="visually-hidden">Ampliar imagem</span>
+      </button>
+    </li>
+    <li class="gallery__item reveal">
+      <button class="gallery__btn media" type="button" data-slot="galeria-05" data-lightbox>
+        <img src="img/galeria-05.jpg" alt="Momento de bastidores antes do show." width="800" height="800" loading="lazy">
+        <span class="gallery__zoom" aria-hidden="true"></span>
+        <span class="visually-hidden">Ampliar imagem</span>
+      </button>
+    </li>
+    <li class="gallery__item reveal">
+      <button class="gallery__btn media" type="button" data-slot="galeria-06" data-lightbox>
+        <img src="img/galeria-06.jpg" alt="Ronie Suárez com a banda durante passagem de som." width="800" height="800" loading="lazy">
+        <span class="gallery__zoom" aria-hidden="true"></span>
+        <span class="visually-hidden">Ampliar imagem</span>
+      </button>
+    </li>
+    <li class="gallery__item gallery__item--cta reveal">
+      <a class="gallery__more" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.96.24 2.65.51.71.28 1.31.65 1.91 1.25.6.6.97 1.2 1.25 1.91.27.69.46 1.48.51 2.65.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.17-.24 1.96-.51 2.65-.28.71-.65 1.31-1.25 1.91-.6.6-1.2.97-1.91 1.25-.69.27-1.48.46-2.65.51-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.17-.05-1.96-.24-2.65-.51a5.3 5.3 0 0 1-1.91-1.25 5.3 5.3 0 0 1-1.25-1.91c-.27-.69-.46-1.48-.51-2.65C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.17.24-1.96.51-2.65.28-.71.65-1.31 1.25-1.91.6-.6 1.2-.97 1.91-1.25.69-.27 1.48-.46 2.65-.51C8.4 2.2 8.8 2.2 12 2.2Zm0 4.9a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 1.8a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2Zm5.1-2.35a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg>
+        <span>Ver mais<br>no Instagram</span>
+      </a>
+    </li>
+  </ul>
+</section>
+
+<!-- ============================================ DEPOIMENTOS -->
+<section class="section testimonials" id="depoimentos">
+  <div class="testimonials__bg media" data-slot="publico" aria-hidden="true">
+    <img src="img/publico.jpg" alt="" width="1600" height="900" loading="lazy">
+  </div>
+
+  <div class="container testimonials__inner">
+    <header class="section__head section__head--center">
+      <div>
+        <p class="eyebrow eyebrow--center reveal">Depoimentos</p>
+        <h2 class="section__title reveal">O que dizem sobre o show</h2>
+      </div>
+    </header>
+
+    <!-- PENDENTE: substituir pelos depoimentos reais autorizados
+         (texto, nome e tipo de evento). Os blocos abaixo são placeholders. -->
+    <div class="slider" data-slider>
+      <div class="slider__viewport" data-slider-viewport tabindex="0" role="group" aria-label="Depoimentos de clientes" aria-live="polite">
+        <ul class="slider__track" data-slider-track>
+
+          <li class="slider__slide">
+            <blockquote class="quote">
+              <p class="quote__text">[Depoimento real de casamento — a inserir]</p>
+              <footer class="quote__author">
+                <span class="quote__name">[Nome do cliente]</span>
+                <span class="quote__role">Casamento</span>
+              </footer>
+            </blockquote>
+          </li>
+
+          <li class="slider__slide">
+            <blockquote class="quote">
+              <p class="quote__text">[Depoimento real de evento corporativo — a inserir]</p>
+              <footer class="quote__author">
+                <span class="quote__name">[Nome do cliente]</span>
+                <span class="quote__role">Evento corporativo</span>
+              </footer>
+            </blockquote>
+          </li>
+
+          <li class="slider__slide">
+            <blockquote class="quote">
+              <p class="quote__text">[Depoimento real de festa de aniversário — a inserir]</p>
+              <footer class="quote__author">
+                <span class="quote__name">[Nome do cliente]</span>
+                <span class="quote__role">Festa de aniversário</span>
+              </footer>
+            </blockquote>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="slider__controls">
+        <button class="slider__arrow" type="button" data-slider-prev aria-label="Depoimento anterior">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+        <div class="slider__dots" data-slider-dots role="tablist" aria-label="Selecionar depoimento"></div>
+        <button class="slider__arrow" type="button" data-slider-next aria-label="Próximo depoimento">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ FAQ -->
+<section class="section section--alt" id="faq">
+  <div class="container faq__grid">
+
+    <div class="faq__intro">
+      <p class="eyebrow reveal">Perguntas frequentes</p>
+      <h2 class="section__title reveal">Antes de fechar<br>a data</h2>
+      <p class="section__aside reveal">
+        Não encontrou o que procurava? Mande sua pergunta no formulário e
+        a gente responde direto.
+      </p>
+      <a class="btn btn--ghost reveal" href="#contato">Falar com a equipe</a>
+    </div>
+
+    <!-- PENDENTE: itens que dependem de informação comercial e ainda não
+         foram definidos — cachê/faixa de preço, duração do show,
+         equipamento incluso (som e luz), política de deslocamento e
+         hospedagem, forma de pagamento e sinal, prazo de cancelamento. -->
+    <ul class="accordion" data-accordion>
+
+      <li class="accordion__item">
+        <h3 class="accordion__heading">
+          <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">
+            <span>Quais formatos de show estão disponíveis?</span>
+            <span class="accordion__icon" aria-hidden="true"></span>
+          </button>
+        </h3>
+        <div class="accordion__panel" id="faq-1" role="region" aria-labelledby="faq-1-btn" hidden>
+          <p>
+            São três: acústico (voz e instrumento), duo ou trio, e show
+            completo com banda. A escolha depende do espaço, do público e
+            do clima que você quer para o evento.
+          </p>
+        </div>
+      </li>
+
+      <li class="accordion__item">
+        <h3 class="accordion__heading">
+          <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">
+            <span>Que estilo musical compõe o repertório?</span>
+            <span class="accordion__icon" aria-hidden="true"></span>
+          </button>
+        </h3>
+        <div class="accordion__panel" id="faq-2" role="region" aria-labelledby="faq-2-btn" hidden>
+          <p>
+            A base é o pop sertanejo, transitando entre romantismo e
+            momentos de mais energia. O repertório é ajustado ao perfil do
+            evento e ao público presente.
+          </p>
+        </div>
+      </li>
+
+      <li class="accordion__item">
+        <h3 class="accordion__heading">
+          <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">
+            <span>Em quais regiões vocês atendem?</span>
+            <span class="accordion__icon" aria-hidden="true"></span>
+          </button>
+        </h3>
+        <div class="accordion__panel" id="faq-3" role="region" aria-labelledby="faq-3-btn" hidden>
+          <p>
+            A base é São Paulo e região. Para eventos em outras cidades,
+            consulte disponibilidade pelo formulário de orçamento.
+          </p>
+        </div>
+      </li>
+
+      <li class="accordion__item">
+        <h3 class="accordion__heading">
+          <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">
+            <span>Dá para pedir músicas específicas?</span>
+            <span class="accordion__icon" aria-hidden="true"></span>
+          </button>
+        </h3>
+        <div class="accordion__panel" id="faq-4" role="region" aria-labelledby="faq-4-btn" hidden>
+          <p>
+            Sim. Momentos marcantes como entrada, primeira dança ou
+            homenagens são alinhados antes do evento, junto com o
+            repertório geral.
+          </p>
+        </div>
+      </li>
+
+      <li class="accordion__item">
+        <h3 class="accordion__heading">
+          <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">
+            <span>Como funciona a solicitação de orçamento?</span>
+            <span class="accordion__icon" aria-hidden="true"></span>
+          </button>
+        </h3>
+        <div class="accordion__panel" id="faq-5" role="region" aria-labelledby="faq-5-btn" hidden>
+          <p>
+            Preencha o formulário com data, cidade, tipo de evento e o
+            formato desejado. Com essas informações, a equipe retorna com
+            a proposta e as condições para a sua data.
+          </p>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================ FAIXA CTA -->
+<section class="cta-band" aria-labelledby="cta-band-title">
+  <div class="cta-band__media media" data-slot="cta-palco" aria-hidden="true">
+    <img src="img/cta-palco.jpg" alt="" width="1600" height="900" loading="lazy">
+  </div>
+  <div class="cta-band__scrim" aria-hidden="true"></div>
+
+  <div class="container cta-band__inner">
+    <p class="eyebrow eyebrow--center eyebrow--spaced reveal">Disponibilidade de datas</p>
+    <h2 class="cta-band__title reveal" id="cta-band-title">Vamos criar<br>o seu momento?</h2>
+    <p class="cta-band__lead reveal">
+      Música ao vivo para momentos que merecem ser inesquecíveis.
+    </p>
+    <a class="btn btn--gold reveal" href="#contato">Solicitar orçamento</a>
+  </div>
+</section>
+
+<!-- ============================================ CONTATO -->
+<section class="section contact" id="contato">
+  <div class="container contact__grid">
+
+    <div class="contact__text">
+      <p class="eyebrow reveal">Orçamento</p>
+      <h2 class="section__title section__title--lg reveal">Vamos criar<br>o seu momento?</h2>
+      <p class="prose reveal">
+        Conte sobre o seu evento e receba uma proposta com o formato mais
+        adequado para a ocasião. Será um prazer fazer parte da sua história.
+      </p>
+
+      <ul class="contact__meta reveal">
+        <li>
+          <span class="contact__meta-label">Atendimento</span>
+          <span class="contact__meta-value">São Paulo e região</span>
+        </li>
+        <li>
+          <span class="contact__meta-label">Formatos</span>
+          <span class="contact__meta-value">Acústico <span aria-hidden="true">·</span> Duo e trio <span aria-hidden="true">·</span> Banda</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Envio via WhatsApp: o submit valida, monta a mensagem com o que
+         foi preenchido e abre o wa.me. Nenhum servidor envolvido.
+         TODO: trocar data-whatsapp pelo número real, só dígitos,
+         com código do país e DDD. Ex.: 5511987654321 -->
+    <form class="form reveal" id="quoteForm" novalidate
+          data-whatsapp="5511900000000">
+      <div class="form__row">
+        <div class="field">
+          <label class="field__label" for="nome">Nome <span class="req" aria-hidden="true">*</span></label>
+          <input class="field__input" type="text" id="nome" name="nome" autocomplete="name" required
+                 aria-describedby="nome-erro">
+          <p class="field__error" id="nome-erro" data-error-for="nome" hidden></p>
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="telefone">WhatsApp <span class="req" aria-hidden="true">*</span></label>
+          <input class="field__input" type="tel" id="telefone" name="telefone" autocomplete="tel"
+                 inputmode="tel" placeholder="(11) 90000-0000" required aria-describedby="telefone-erro">
+          <p class="field__error" id="telefone-erro" data-error-for="telefone" hidden></p>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="field__label" for="email">E-mail <span class="req" aria-hidden="true">*</span></label>
+        <input class="field__input" type="email" id="email" name="email" autocomplete="email" required
+               aria-describedby="email-erro">
+        <p class="field__error" id="email-erro" data-error-for="email" hidden></p>
+      </div>
+
+      <div class="form__row">
+        <div class="field">
+          <label class="field__label" for="tipo">Tipo de evento <span class="req" aria-hidden="true">*</span></label>
+          <select class="field__input" id="tipo" name="tipo" required aria-describedby="tipo-erro">
+            <option value="">Selecione</option>
+            <option>Casamento</option>
+            <option>Evento corporativo</option>
+            <option>Aniversário ou festa</option>
+            <option>Evento exclusivo</option>
+            <option>Outro</option>
+          </select>
+          <p class="field__error" id="tipo-erro" data-error-for="tipo" hidden></p>
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="data">Data do evento</label>
+          <input class="field__input" type="date" id="data" name="data">
+        </div>
+      </div>
+
+      <div class="form__row">
+        <div class="field">
+          <label class="field__label" for="cidade">Cidade</label>
+          <input class="field__input" type="text" id="cidade" name="cidade" autocomplete="address-level2">
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="formato">Formato desejado</label>
+          <select class="field__input" id="formato" name="formato">
+            <option value="">Ainda não sei</option>
+            <option>Acústico</option>
+            <option>Duo ou trio</option>
+            <option>Show completo com banda</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="field__label" for="mensagem">Conte sobre o evento</label>
+        <textarea class="field__input field__input--area" id="mensagem" name="mensagem" rows="4"
+                  placeholder="Local, número de convidados, horário previsto, momentos especiais..."></textarea>
+      </div>
+
+      <button class="btn btn--gold btn--block" type="submit">
+        <span class="btn__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.97L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.92C21.95 6.45 17.5 2 12.04 2m0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 4.54 0 8.24 3.69 8.24 8.23 0 4.54-3.7 8.22-8.24 8.22m4.52-6.16c-.25-.12-1.47-.72-1.69-.8-.23-.09-.4-.13-.56.12-.17.25-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.39.11-.51.11-.11.25-.3.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.41-.56-.42h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.55.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.51.59.19 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.19.21-.58.21-1.08.14-1.19-.06-.11-.23-.18-.48-.3Z"/></svg>
+        </span>
+        Enviar pelo WhatsApp
+      </button>
+
+      <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================ FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+
+    <a class="brand brand--footer" href="#inicio">
+      <span class="brand__monogram" aria-hidden="true">RS</span>
+      <span class="brand__name">Ronie Suárez</span>
+    </a>
+
+    <p class="footer__tag">Cantor <span aria-hidden="true">•</span> Compositor <span aria-hidden="true">•</span> Pop Sertanejo</p>
+
+    <ul class="footer__social" aria-label="Redes sociais">
+      <li>
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Ronie Suárez">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.96.24 2.65.51.71.28 1.31.65 1.91 1.25.6.6.97 1.2 1.25 1.91.27.69.46 1.48.51 2.65.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.17-.24 1.96-.51 2.65-.28.71-.65 1.31-1.25 1.91-.6.6-1.2.97-1.91 1.25-.69.27-1.48.46-2.65.51-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.17-.05-1.96-.24-2.65-.51a5.3 5.3 0 0 1-1.91-1.25 5.3 5.3 0 0 1-1.25-1.91c-.27-.69-.46-1.48-.51-2.65C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.17.24-1.96.51-2.65.28-.71.65-1.31 1.25-1.91.6-.6 1.2-.97 1.91-1.25.69-.27 1.48-.46 2.65-.51C8.4 2.2 8.8 2.2 12 2.2Zm0 4.9a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 1.8a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2Zm5.1-2.35a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="Canal de Ronie Suárez no YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.76-1.77C18.25 5 12 5 12 5s-6.25 0-7.84.43A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.76 1.77C5.75 19 12 19 12 19s6.25 0 7.84-.43a2.5 2.5 0 0 0 1.76-1.77C22 15.2 22 12 22 12s0-3.2-.4-4.8ZM10 15.2V8.8L15.5 12 10 15.2Z"/></svg>
+        </a>
+      </li>
+    </ul>
+
+    <p class="footer__copy">
+      <span id="year">2025</span> Ronie Suárez. Todos os direitos reservados.
+    </p>
+  </div>
+</footer>
+
+<!-- ============================================ LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização ampliada" hidden>
+  <button class="lightbox__close" type="button" data-lightbox-close aria-label="Fechar">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" data-lightbox-prev aria-label="Imagem anterior">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <figure class="lightbox__figure">
+    <img class="lightbox__img" id="lightboxImg" src="" alt="">
+    <figcaption class="lightbox__caption" id="lightboxCaption"></figcaption>
+  </figure>
+  <button class="lightbox__nav lightbox__nav--next" type="button" data-lightbox-next aria-label="Próxima imagem">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+</div>
+
+<!-- ============================================ VÍDEO -->
+<!-- TODO: trocar VIDEO_ID pelo ID real do vídeo no YouTube. -->
+<div class="modal" id="videoModal" role="dialog" aria-modal="true" aria-label="Vídeo do show" hidden data-video-id="VIDEO_ID">
+  <button class="lightbox__close" type="button" data-video-close aria-label="Fechar vídeo">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <div class="modal__frame" id="videoFrame"></div>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

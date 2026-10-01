@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO: trocar pelo domínio real quando publicar na Vercel.
+Sitemap: https://roniesuarez.com.br/sitemap.xml
