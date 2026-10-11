@@ -99,7 +99,8 @@ Arquivos esperados:
 hero.jpg  retrato.jpg  publico.jpg
 casamento.jpg  corporativo.jpg  festa.jpg  exclusivo.jpg
 banda-completa.jpg  acustico-banda.jpg  voz-instrumento.jpg
-galeria-01.jpg … galeria-06.jpg
+galeria-03.jpg  galeria-06.jpg
+palco-luzes-douradas.jpg  palco-com-publico.jpg  palco-ambar.jpg  palco-neon.jpg
 ```
 
 ## Pendências antes de ir ao ar
