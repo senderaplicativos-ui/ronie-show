@@ -548,6 +548,26 @@ body.is-locked{overflow:hidden}
   font-family:var(--serif);font-style:italic;font-size:clamp(1.1rem,2.4vw,1.45rem);line-height:1.5;
 }
 
+/* ------------------------------------------------- WHATSAPP FLUTUANTE */
+.contact__meta-link{transition:color .25s var(--ease)}
+.contact__meta-link:hover{color:var(--gold-light)}
+.whatsapp-float{
+  position:fixed;right:clamp(1rem,3vw,1.75rem);bottom:clamp(1rem,3vw,1.75rem);z-index:150;
+  display:grid;place-items:center;width:3.75rem;height:3.75rem;border-radius:50%;
+  background:#25d366;color:#0a0807;
+  box-shadow:0 14px 34px -10px rgba(37,211,102,.65),0 4px 14px rgba(0,0,0,.5);
+  border:1px solid rgba(255,255,255,.25);
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease),background-color .3s var(--ease);
+}
+.whatsapp-float svg{width:1.9rem;height:1.9rem;fill:currentColor}
+.whatsapp-float:hover{background:#2fe673;transform:translateY(-3px);box-shadow:0 18px 40px -10px rgba(37,211,102,.75),0 4px 14px rgba(0,0,0,.5)}
+.whatsapp-float:active{transform:translateY(0)}
+.whatsapp-float::after{
+  content:"";position:absolute;inset:-4px;border-radius:50%;
+  border:1px solid rgba(37,211,102,.5);animation:waPulse 2.4s var(--ease) infinite;
+}
+@keyframes waPulse{0%{transform:scale(.9);opacity:1}70%{transform:scale(1.12);opacity:0}100%{transform:scale(1.12);opacity:0}}
+
 /* ------------------------------------------------------- ANIMAÇÃO LEVE */
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
 .reveal.is-visible{opacity:1;transform:none}
@@ -560,4 +580,5 @@ body.is-locked{overflow:hidden}
   }
   .reveal{opacity:1;transform:none}
   .hero__media img{animation:none}
+  .whatsapp-float::after{animation:none}
 }
