@@ -109,9 +109,8 @@ galeria-01.jpg … galeria-06.jpg
 - [ ] **Vídeo** — trocar `data-video-id="VIDEO_ID"` em `#videoModal` pelo ID
       real do YouTube. Enquanto estiver `VIDEO_ID`, o botão abre o YouTube em
       nova aba em vez de embutir o player.
-- [ ] **Redes sociais** — os `href` de Instagram e YouTube estão em
-      `https://instagram.com/` e `https://youtube.com/`. Apontar para os
-      perfis reais (header, galeria e footer).
+- [x] **Redes sociais** — Instagram, YouTube, Facebook, X e Spotify
+      apontando para os perfis reais (header, galeria, contato e footer).
 - [ ] **Envio do formulário** — hoje o submit apenas valida e confirma
       localmente. Integrar endpoint próprio, serviço de formulário ou trocar
       por link `wa.me` com mensagem pré-montada.

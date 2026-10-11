@@ -342,7 +342,7 @@
 
     // Sem ID real configurado: abre o YouTube em nova aba.
     if (!videoId || videoId === 'VIDEO_ID') {
-      window.open('https://youtube.com/', '_blank', 'noopener');
+      window.open('https://www.youtube.com/@RonieSu%C3%A1rez-s7s', '_blank', 'noopener');
       return;
     }
 

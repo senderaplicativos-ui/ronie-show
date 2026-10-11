@@ -178,7 +178,8 @@ blockquote,figure{margin:0}
   .nav__list{gap:.85rem}
   .nav__link{font-size:.68rem;letter-spacing:.1em}
   .brand__name{font-size:.86rem;letter-spacing:.22em}
-  .nav__social{padding-left:.75rem}
+  .nav__social{padding-left:.75rem;gap:.6rem}
+  .nav__social a{width:1.6rem;height:1.6rem}
   .header__cta{padding:.72rem 1rem}
 }
 
