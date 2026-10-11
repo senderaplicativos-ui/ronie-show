@@ -105,8 +105,11 @@ palco-luzes-douradas.jpg  palco-com-publico.jpg  palco-ambar.jpg  palco-neon.jpg
 
 ## Pendências antes de ir ao ar
 
-- [ ] **Depoimentos** — os três blocos são placeholders (`[Nome do cliente]`).
-      Substituir por depoimentos reais autorizados.
+- [ ] **Depoimentos reais** — a seção hoje é "O que os contratantes
+      destacam" (cards genéricos, sem nomes). Quando houver depoimentos
+      autorizados (nome + evento + frase), trocar por aspas com autoria.
+      O CSS/JS do carrossel (`slider`, `quote`, `data-slider`) foi mantido
+      de propósito para reaproveitar nessa hora.
 - [ ] **Vídeo** — trocar `data-video-id="VIDEO_ID"` em `#videoModal` pelo ID
       real do YouTube. Enquanto estiver `VIDEO_ID`, o botão abre o YouTube em
       nova aba em vez de embutir o player.

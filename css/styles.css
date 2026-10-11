@@ -353,7 +353,7 @@ blockquote,figure{margin:0}
 
 .gallery__cta{display:flex;justify-content:center;margin-top:clamp(2rem,4vw,3rem)}
 
-/* ----------------------------------------------------------- DEPOIMENTOS */
+/* --------------------------------------------- DESTAQUES (ex-depoimentos) */
 .testimonials{overflow:hidden;isolation:isolate}
 .testimonials__bg{position:absolute;inset:0;z-index:-1}
 .testimonials__bg img{opacity:.35}
@@ -362,7 +362,11 @@ blockquote,figure{margin:0}
   background:linear-gradient(180deg,var(--black) 0%,rgba(10,8,7,.82) 40%,var(--black) 100%);
 }
 .testimonials__inner{position:relative}
+.cards--highlights{max-width:1080px;margin-inline:auto}
+.card--highlight .card__body{padding:clamp(1.75rem,3.5vw,2.5rem)}
+.card--highlight .format__index{margin-bottom:.5rem}
 
+/* Carrossel reservado para depoimentos reais futuros */
 .slider{position:relative}
 .slider__viewport{overflow:hidden}
 .slider__track{display:flex;transition:transform .55s var(--ease)}

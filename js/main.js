@@ -1,7 +1,8 @@
 /* ============================================================
    Ronie Suárez — landing page
    Interações: nav, reveal on scroll, contadores, acordeão,
-   slider de depoimentos, lightbox, modal de vídeo e formulário.
+   carrossel (uso futuro, quando houver depoimentos reais),
+   lightbox, modal de vídeo e formulário.
    Sem dependências. Animações respeitam prefers-reduced-motion.
    ============================================================ */
 (function () {
@@ -181,7 +182,7 @@
     });
   });
 
-  /* ---------------------------------------- slider de depoimentos */
+  /* ---------------------------------------- carrossel (destaques/depoimentos futuros) */
   var sliderRoot = document.querySelector('[data-slider]');
 
   if (sliderRoot) {
@@ -211,7 +212,7 @@
         dot.type = 'button';
         dot.className = 'slider__dot';
         dot.setAttribute('role', 'tab');
-        dot.setAttribute('aria-label', 'Depoimento ' + (i + 1));
+        dot.setAttribute('aria-label', 'Item ' + (i + 1));
         dot.setAttribute('data-index', String(i));
         dotsWrap.appendChild(dot);
       }

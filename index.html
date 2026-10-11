@@ -125,7 +125,7 @@ window.addEventListener('error', function (e) {
         <li><a class="nav__link" href="#formatos">Formatos</a></li>
         <li><a class="nav__link" href="#videos">Vídeos</a></li>
         <li><a class="nav__link" href="#galeria">Galeria</a></li>
-        <li><a class="nav__link" href="#depoimentos">Depoimentos</a></li>
+        <li><a class="nav__link" href="#destaques">Destaques</a></li>
         <li><a class="nav__link" href="#faq">FAQ</a></li>
       </ul>
 
@@ -542,8 +542,10 @@ window.addEventListener('error', function (e) {
   </div>
 </section>
 
-<!-- ============================================ DEPOIMENTOS -->
-<section class="section testimonials" id="depoimentos">
+<!-- ============================================ DESTAQUES -->
+<!-- Quando houver depoimentos reais autorizados (nome + evento + frase),
+     trocar esta seção por depoimentos com aspas e autoria. -->
+<section class="section testimonials" id="destaques">
   <div class="testimonials__bg media" data-slot="publico" aria-hidden="true">
     <img src="img/publico.jpg" alt="" width="1600" height="900" loading="lazy">
   </div>
@@ -551,60 +553,47 @@ window.addEventListener('error', function (e) {
   <div class="container testimonials__inner">
     <header class="section__head section__head--center">
       <div>
-        <p class="eyebrow eyebrow--center reveal">Depoimentos</p>
-        <h2 class="section__title reveal">O que dizem sobre o show</h2>
+        <p class="eyebrow eyebrow--center reveal">Por que contratar</p>
+        <h2 class="section__title reveal">O que os contratantes destacam</h2>
       </div>
     </header>
 
-    <!-- PENDENTE: substituir pelos depoimentos reais autorizados
-         (texto, nome e tipo de evento). Os blocos abaixo são placeholders. -->
-    <div class="slider" data-slider>
-      <div class="slider__viewport" data-slider-viewport tabindex="0" role="group" aria-label="Depoimentos de clientes" aria-live="polite">
-        <ul class="slider__track" data-slider-track>
+    <ul class="cards cards--highlights">
 
-          <li class="slider__slide">
-            <blockquote class="quote">
-              <p class="quote__text">[Depoimento real de casamento — a inserir]</p>
-              <footer class="quote__author">
-                <span class="quote__name">[Nome do cliente]</span>
-                <span class="quote__role">Casamento</span>
-              </footer>
-            </blockquote>
-          </li>
+      <li class="card card--highlight reveal">
+        <div class="card__body">
+          <span class="format__index" aria-hidden="true">01</span>
+          <h3 class="card__title">Repertório que lê a pista</h3>
+          <p class="card__text">
+            Clássicos e atuais na medida do público, conduzindo o clima do
+            evento do começo ao fim — sem pista vazia.
+          </p>
+        </div>
+      </li>
 
-          <li class="slider__slide">
-            <blockquote class="quote">
-              <p class="quote__text">[Depoimento real de evento corporativo — a inserir]</p>
-              <footer class="quote__author">
-                <span class="quote__name">[Nome do cliente]</span>
-                <span class="quote__role">Evento corporativo</span>
-              </footer>
-            </blockquote>
-          </li>
+      <li class="card card--highlight reveal">
+        <div class="card__body">
+          <span class="format__index" aria-hidden="true">02</span>
+          <h3 class="card__title">Presença de palco</h3>
+          <p class="card__text">
+            Interação com os convidados e energia de show grande, em qualquer
+            formato — do acústico à banda completa.
+          </p>
+        </div>
+      </li>
 
-          <li class="slider__slide">
-            <blockquote class="quote">
-              <p class="quote__text">[Depoimento real de festa de aniversário — a inserir]</p>
-              <footer class="quote__author">
-                <span class="quote__name">[Nome do cliente]</span>
-                <span class="quote__role">Festa de aniversário</span>
-              </footer>
-            </blockquote>
-          </li>
+      <li class="card card--highlight reveal">
+        <div class="card__body">
+          <span class="format__index" aria-hidden="true">03</span>
+          <h3 class="card__title">Profissionalismo de ponta a ponta</h3>
+          <p class="card__text">
+            Pontualidade, postura alinhada ao evento e repertório definido
+            junto com você antes do grande dia.
+          </p>
+        </div>
+      </li>
 
-        </ul>
-      </div>
-
-      <div class="slider__controls">
-        <button class="slider__arrow" type="button" data-slider-prev aria-label="Depoimento anterior">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
-        </button>
-        <div class="slider__dots" data-slider-dots role="tablist" aria-label="Selecionar depoimento"></div>
-        <button class="slider__arrow" type="button" data-slider-next aria-label="Próximo depoimento">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
-        </button>
-      </div>
-    </div>
+    </ul>
   </div>
 </section>
 
