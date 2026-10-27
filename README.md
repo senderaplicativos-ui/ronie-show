@@ -110,14 +110,15 @@ palco-luzes-douradas.jpg  palco-com-publico.jpg  palco-ambar.jpg  palco-neon.jpg
       autorizados (nome + evento + frase), trocar por aspas com autoria.
       O CSS/JS do carrossel (`slider`, `quote`, `data-slider`) foi mantido
       de propósito para reaproveitar nessa hora.
-- [ ] **Vídeo** — trocar `data-video-id="VIDEO_ID"` em `#videoModal` pelo ID
-      real do YouTube. Enquanto estiver `VIDEO_ID`, o botão abre o YouTube em
-      nova aba em vez de embutir o player.
+- [x] **Vídeos** — 4 embeds reais na seção `#videos` (`Czz4Wqsu9VY`,
+      `1Ag2UqLVJgs`, `QravFQlq77M`, `qff9tT_a8sk`) e `data-video-id` do
+      `#videoModal` apontando para o vídeo do hero.
 - [x] **Redes sociais** — Instagram, YouTube, Facebook, X e Spotify
       apontando para os perfis reais (header, galeria, contato e footer).
-- [ ] **Envio do formulário** — hoje o submit apenas valida e confirma
-      localmente. Integrar endpoint próprio, serviço de formulário ou trocar
-      por link `wa.me` com mensagem pré-montada.
+- [x] **Envio do formulário** — o submit valida e abre o WhatsApp
+      (`wa.me/5511970551832`) com a mensagem pré-montada. Nenhum servidor
+      envolvido. Se mudar o número, atualizar `data-whatsapp` no form, o link
+      do botão flutuante e o contato em `#contato`.
 - [ ] **FAQ comercial** — itens que dependem de informação ainda não definida
       (cachê, duração, equipamento incluso, deslocamento e hospedagem,
       pagamento e sinal, cancelamento) estão marcados como `PENDENTE` no HTML.
